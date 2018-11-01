@@ -1,0 +1,25 @@
+#app {
+  display: flex;
+  height: 100%;
+  padding-top: 30px;
+
+  .column-left {
+    width: 50%;
+    max-height: 90%;
+
+    textarea {
+      width: 96%;
+      height: 100%;
+    }
+  }
+
+  .column-right {
+    width: 50%;
+    max-height: 90%;
+
+    p {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}
